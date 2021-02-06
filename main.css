@@ -1,9 +1,10 @@
+
 html {
     font-size: 16;
 }
-.social-bar {
+.social-bar{
     position: fixed;
-    right: 0;
+    right: 0%;
     top: 35%;
     font-size: 1.5rem;
     display: flex;
@@ -18,15 +19,27 @@ html {
     display: flex;
     transition: all .5s;
 }
+.icon-menu{
+    background: #020202;
+}
+.icon-embed2{
+    background: #020202;
+}
+.icon-pacman{
+    background: #020202;
+}
+.icon-library{
+    background: #020202;
+}
+.icon-home{
+    background: #020202;
+}
 .icon-facebook{
     background: #2e406e;
+    border-radius: 1rem 0;
 }
 .icon-instagram{
     background: #339dc5;
-}
-.icon:first-child{
-    border-radius: 1rem 0 0 0;
-}
-.icon:last-child{ 
-    border-radius:0 0 0 1rem;
+    
+    border-radius: 0 1rem;
 }
