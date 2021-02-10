@@ -57,3 +57,6 @@
 .icon-menu:before {
   content: "\e9bd";
 }
+.icon-user:before {
+  content: "\e971";
+}
